@@ -11,5 +11,6 @@ for i in range(0,100):
   pyautogui.move(0,i*10)
 pyautogui.click(x=0,y=1000) # click the left bottom corner of the screen
 
+# this for loop is used to press keyboard
 for i in range(0,3):
   pyautogui.press("shift")
